@@ -7,5 +7,5 @@ Test repository used to test signed commit cases for [github-api](https://github
 | ---- | ----------- | -------------- |
 | Commit without signature | Plain commit without a signature, base case | 905551d9c2af20680061bcdc5f5e99ffe5794e5b |
 | Commit with valid signature | GPG signature is valid | TBD |
-||||
-|||| 
+| Commit with signature from self-signed cert | Signature is not verified | TBD |
+| Commit with signature from a cert from untruted CA | Signature should not parse | TBD | 
